@@ -32,11 +32,25 @@ packageurl <- "https://github.com/TXiang-lab/rPEC/raw/main/0.1.0/rPEC_0.1.0_R_x8
 install.packages(packageurl,repos=NULL,method="libcurl")
 ```
 
+#### Install rPEC on Linux for domestic user
+
+```R
+packageurl <- "https://gitee.com/qsmei/blupADC/attach_files/828967/download/rPEC_0.1.0_R_x86_64-pc-linux-gnu.tar.gz"
+install.packages(packageurl,repos=NULL,method="libcurl")
+```
+
 #### Install rPEC on Windows
 
 ```R
 packageurl <- "https://github.com/TXiang-lab/rPEC/raw/main/0.1.0/rPEC_0.1.0.zip"
-install.packages(packageurl,repos=NULL,type="win.binary")
+install.packages(packageurl,repos=NULL)
+```
+
+#### Install rPEC on Windows for domestic user
+
+```R
+packageurl <- "https://gitee.com/qsmei/blupADC/attach_files/828968/download/rPEC_0.1.0.zip"
+install.packages(packageurl,repos=NULL)
 ```
 
 After installed successfully, the `rPEC` package can be loaded by typing
