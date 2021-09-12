@@ -4,7 +4,7 @@
 
 -   [Overview](#overview)
 -   [Installation](#installation)
--   [Data preparation](#Data #preparation)
+-   [Data preparation](#Data-preparation)
 -   [Usage](#usage)
 -   [Output](#Output)
 
