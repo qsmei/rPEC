@@ -28,14 +28,14 @@ install.packages(c("Rcpp", "RcppArmadillo"))
 #### Install rPEC on Linux 
 
 ```R
-packageurl <- "https://github.com/TXiang-lab/blupADC/raw/master/blupADC_1.0.2_R_x86_64-pc-linux-gnu.tar.gz"
+packageurl <- "https://github.com/TXiang-lab/rPEC/blob/main/0.1.0/rPEC_0.1.0.tar.gz"
 install.packages(packageurl,repos=NULL,method="libcurl")
 ```
 
 #### Install rPEC on Windows
 
 ```R
-packageurl <- "https://github.com/TXiang-lab/blupADC/raw/master/blupADC_1.0.2.zip"
+packageurl <- "https://github.com/TXiang-lab/rPEC/blob/main/0.1.0/rPEC_0.1.0.zip"
 install.packages(packageurl,repos=NULL)
 ```
 
